@@ -50,9 +50,9 @@ const HomePage = () => {
     loadRaces();
   }, []);
 
-  const handleRaceSelect = async (race) => {
-    // Entry側に遷移
-    const entryUrl = await getEntryUrl(race);
+  const handleRaceSelect = (race) => {
+    // 事前計算済みのentryUrlを使用
+    const entryUrl = raceEntryUrls[race.raceId];
     
     // entryUrlがnullの場合は何もしない（ボタンが表示されないはず）
     if (!entryUrl) {
