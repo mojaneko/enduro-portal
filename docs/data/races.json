@@ -1,0 +1,398 @@
+[
+  {
+    "raceId": "chubu-rd1-2026",
+    "round": 1,
+    "series": ["中日本"],
+    "name": "WOODS モータースポーツランドしもいち",
+    "startDate": "2026-04-12",
+    "endDate": "2026-04-12",
+    "venue": "WOODS モータースポーツランドしもいち",
+    "location": "和歌山県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "B", "C", "CW"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "kyushu-rd1-2026",
+    "round": 1,
+    "series": ["九州"],
+    "name": "エンジョイエンデューロ 南島原OFFJAM大会",
+    "startDate": "2026-03-22",
+    "endDate": "2026-03-22",
+    "venue": "南島原OFFJAM",
+    "location": "長崎県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "エンジョイ"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "chubu-rd2-2026",
+    "round": 2,
+    "series": ["中日本"],
+    "name": "池の平ワンダーランド",
+    "startDate": "2026-05-03",
+    "endDate": "2026-05-03",
+    "venue": "池の平ワンダーランド",
+    "location": "長野県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "B", "C", "CW"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "rd1-2026",
+    "round": 1,
+    "series": ["全日本", "西日本", "九州"],
+    "name": "御所オートランド2DAYSエンデューロ大会",
+    "startDate": "2026-05-09",
+    "endDate": "2026-05-10",
+    "venue": "御所オートランド",
+    "location": "熊本県",
+    "classes": {
+      "official": ["IA", "IB", "NA", "NB", "W"],
+      "approved": ["エンジョイ"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "higashi-rd1-2026",
+    "round": 1,
+    "series": ["東日本"],
+    "name": "成田モトクロスパーク大会",
+    "startDate": "2026-04-26",
+    "endDate": "2026-04-26",
+    "venue": "成田MXパーク",
+    "location": "千葉県",
+    "address": "千葉県成田市津富浦119-1",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "W", "J", "B", "C", "CW"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "hokkaido-rd1-2026",
+    "round": 1,
+    "series": ["北海道"],
+    "name": "今金大会",
+    "startDate": "2026-05-10",
+    "endDate": "2026-05-10",
+    "venue": "今金町特設会場",
+    "location": "北海道",
+    "classes": {
+      "official": ["IB", "NA", "NB", "W"],
+      "approved": ["IA", "B", "C", "FB"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jechkd.wordpress.com/%e5%8f%82%e5%8a%a0%e7%94%b3%e8%be%bc%e3%81%bf%e3%83%bb%e3%82%a8%e3%83%b3%e3%83%88%e3%83%aa%e3%83%bc/"
+  },
+  {
+    "raceId": "hokkaido-rd2-2026",
+    "round": 2,
+    "series": ["北海道"],
+    "name": "ルスツビックベアOHVパーク大会",
+    "startDate": "2026-06-07",
+    "endDate": "2026-06-07",
+    "venue": "ルスツ ビッグベアOHVパーク",
+    "location": "北海道",
+    "classes": {
+      "official": ["IB", "NA", "NB", "W"],
+      "approved": ["IA", "B", "C", "FB"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jechkd.wordpress.com/%e5%8f%82%e5%8a%a0%e7%94%b3%e8%be%bc%e3%81%bf%e3%83%bb%e3%82%a8%e3%83%b3%e3%83%88%e3%83%aa%e3%83%bc/"
+  },
+  {
+    "raceId": "nishi-rd1-2026",
+    "round": 1,
+    "series": ["西日本"],
+    "name": "ビギナーズエンデューロ大会",
+    "startDate": "2026-06-07",
+    "endDate": "2026-06-07",
+    "venue": "テージャスランチ",
+    "location": "広島県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "ビギナー", "スーパービギナー", "マスター"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://berexike.wixsite.com/berex/others"
+  },
+  {
+    "raceId": "area-katsunuma-2026",
+    "round": 2,
+    "series": ["東日本"],
+    "name": "クロスパーク勝沼エンデューロ大会",
+    "startDate": "2026-06-14",
+    "endDate": "2026-06-14",
+    "venue": "クロスパーク勝沼",
+    "location": "山梨県",
+    "address": "〒404-0000 山梨県甲州市勝沼町山林404",
+    "classes": {
+      "official": ["IA", "IB", "NA", "NB", "WC"],
+      "approved": ["B", "C", "CW"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "higashi-rd2-2026",
+    "round": 2,
+    "series": ["東日本"],
+    "name": "クロスパーク勝沼大会",
+    "startDate": "2026-08-02",
+    "endDate": "2026-08-02",
+    "venue": "クロスパーク勝沼",
+    "location": "山梨県",
+    "address": "山梨県甲州市勝沼町山林404",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "B", "CW", "Jr"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "rd2-2026",
+    "round": 2,
+    "series": ["全日本", "中日本"],
+    "name": "プラザ阪下 2DAYSエンデューロ大会",
+    "startDate": "2026-06-20",
+    "endDate": "2026-06-21",
+    "venue": "プラザ阪下",
+    "location": "大阪府",
+    "address": "大阪府河内長野市末広町4-1",
+    "classes": {
+      "official": ["IA", "IB", "NA", "NB", "W"],
+      "approved": ["B", "C", "CW"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "hokkaido-rd3-2026",
+    "round": 3,
+    "series": ["北海道"],
+    "name": "栗山 モンブランパーク大会",
+    "startDate": "2026-07-19",
+    "endDate": "2026-07-19",
+    "venue": "栗山 モンブランパーク",
+    "location": "北海道",
+    "classes": {
+      "official": ["IB", "NA", "NB", "W"],
+      "approved": ["IA", "B", "C", "FB"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jechkd.wordpress.com/%e5%8f%82%e5%8a%a0%e7%94%b3%e8%be%bc%e3%81%bf%e3%83%bb%e3%82%a8%e3%83%b3%e3%83%88%e3%83%aa%e3%83%bc/"
+  },
+  {
+    "raceId": "nishi-rd2-2026",
+    "round": 2,
+    "series": ["西日本"],
+    "name": "ビギナーズエンデューロ大会",
+    "startDate": "2026-07-19",
+    "endDate": "2026-07-19",
+    "venue": "ホワイトバレー松原",
+    "location": "広島県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "ビギナー", "スーパービギナー", "マスター"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://berexike.wixsite.com/berex/others"
+  },
+  {
+    "raceId": "hokkaido-rd4-2026",
+    "round": 4,
+    "series": ["北海道"],
+    "name": "108 FUNPARK 釧路町大会",
+    "startDate": "2026-08-09",
+    "endDate": "2026-08-09",
+    "venue": "108 FUNPARK 釧路町",
+    "location": "北海道",
+    "classes": {
+      "official": ["IB", "NA", "NB", "W"],
+      "approved": ["IA", "B", "C", "FB"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jechkd.wordpress.com/%e5%8f%82%e5%8a%a0%e7%94%b3%e8%be%bc%e3%81%bf%e3%83%bb%e3%82%a8%e3%83%b3%e3%83%88%e3%83%aa%e3%83%bc/"
+  },
+  {
+    "raceId": "higashi-rd3-2026",
+    "round": 3,
+    "series": ["東日本"],
+    "name": "遠野",
+    "startDate": "2026-09-05",
+    "endDate": "2026-09-06",
+    "venue": "遠野特設コース",
+    "location": "岩手県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "W", "J", "B", "C", "CW"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "nishi-rd3-2026",
+    "round": 3,
+    "series": ["西日本"],
+    "name": "ビギナーズエンデューロ大会",
+    "startDate": "2026-09-06",
+    "endDate": "2026-09-06",
+    "venue": "テージャスランチ",
+    "location": "広島県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "ビギナー", "スーパービギナー", "マスター"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://berexike.wixsite.com/berex/others"
+  },
+  {
+    "raceId": "kyushu-rd4-2026",
+    "round": 4,
+    "series": ["九州"],
+    "name": "エンジョイエンデューロ寺山牧場大会",
+    "startDate": "2026-09-27",
+    "endDate": "2026-09-27",
+    "venue": "寺山牧場",
+    "location": "鹿児島県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "エンジョイ"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "chubu-rd4-2026",
+    "round": 4,
+    "series": ["中日本"],
+    "name": "イオックスアローザ",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-13",
+    "venue": "イオックスアローザスキー場",
+    "location": "富山県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "B", "C", "CW"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "rd3-2026",
+    "round": 3,
+    "series": ["全日本","北海道"],
+    "name": "HTDE 日高2DAYSエンデューロ大会",
+    "startDate": "2026-09-20",
+    "endDate": "2026-09-21",
+    "venue": "日高町",
+    "location": "北海道",
+    "address": "北海道沙流郡日高町富岡444-1",
+    "classes": {
+      "official": ["IA", "IB", "NA", "NB", "W"],
+      "approved": ["A", "B", "C", "CW", "MINI"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jechkd.wordpress.com/%e5%8f%82%e5%8a%a0%e7%94%b3%e8%be%bc%e3%81%bf%e3%83%bb%e3%82%a8%e3%83%b3%e3%83%88%e3%83%aa%e3%83%bc/"
+  },
+  {
+    "raceId": "chubu-rd5-2026",
+    "round": 5,
+    "series": ["中日本"],
+    "name": "O LAND PARK SHISHIHARA",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "venue": "O LAND PARK SHISHIHARA",
+    "location": "三重県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "rd4-2026",
+    "round": 4,
+    "series": ["全日本", "東日本"],
+    "name": "チーズナッツ2DAYSエンデューロ大会",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "venue": "チーズナッツパーク",
+    "location": "福島県",
+    "classes": {
+      "official": ["IA", "IB", "NA", "NB", "W"],
+      "approved": []
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "nishi-rd4-2026",
+    "round": 4,
+    "series": ["西日本"],
+    "name": "ビギナーズエンデューロ大会",
+    "startDate": "2026-11-08",
+    "endDate": "2026-11-08",
+    "venue": "ホワイトバレー松原",
+    "location": "広島県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "ビギナー", "スーパービギナー", "マスター"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://berexike.wixsite.com/berex/others"
+  },
+  {
+    "raceId": "kyushu-rd5-2026",
+    "round": 5,
+    "series": ["九州"],
+    "name": "エンジョイエンデューロ HSR九州大会",
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-01",
+    "venue": "HSR九州",
+    "location": "熊本県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "エンジョイ"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": "https://jecpromotion.com/"
+  }
+]

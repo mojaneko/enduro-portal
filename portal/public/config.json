@@ -1,0 +1,6 @@
+{
+  "environment": "dev",
+  "siteName": "エンデューロ ポータル",
+  "description": "環境設定: dev=開発環境(entryBaseUrlを使用), prod=本番環境(entryUrlを優先)",
+  "entryBaseUrl": "http://entry.localhost:3006"
+}
