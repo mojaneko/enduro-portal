@@ -37,11 +37,11 @@ export const getEntryUrl = async (race) => {
     return `${config.entryBaseUrl}/race/${race.raceId}?portal=${portalUrl}`;
   }
   
-  // formTemplateあり＆prod → entryUrlを使用（エントリーサイトに遷移）
+  // formTemplateあり＆prod → entryUrl/race/{raceId}を使用してエントリーサイトに遷移
   if (race.formTemplate && config.environment === 'prod') {
-    // entryUrlがある → entryUrlを使用してエントリーサイトに遷移
+    // entryUrlがある → entryUrl/race/{raceId}を使用してエントリーサイトに遷移
     if (race.entryUrl) {
-      return race.entryUrl;
+      return `${race.entryUrl}/race/${race.raceId}`;
     }
     // entryUrlがない → nullを返す（ボタンを表示しない）
     return null;

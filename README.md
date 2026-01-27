@@ -118,13 +118,29 @@ npm start
 
 ブラウザで http://localhost:3000 にアクセスしてください。
 
+### ローカルでの本番環境テスト
+
+開発用ビルドを作成してPythonサーバでテストする場合：
+
+```bash
+# 開発用ビルド（ルートパス / 前提）
+cd portal
+npm run build:dev
+
+# Pythonサーバで起動
+cd ../dev
+python3 -m http.server 8000
+```
+
+ブラウザで http://localhost:8000 にアクセスしてください。
+
 ### GitHub Pagesでの公開
 
 このプロジェクトはGitHub Pagesで公開できます。
 
 #### 🚀 公開手順
 
-1. **ポータルサイトをビルド**:
+1. **GitHub Pages用ビルド**:
    ```bash
    cd portal
    npm run build:docs
@@ -161,16 +177,21 @@ git commit -m "docs: サイト更新"
 git push
 ```
 
-#### ⚙️ ローカルでのテスト
+#### ⚙️ ビルドコマンドの使い分け
 
-GitHub Pages環境をローカルで再現してテストする場合：
+| コマンド | 出力先 | 用途 | パス設定 |
+|---------|--------|------|----------|
+| `npm run build:dev` | `../dev/` | ローカルテスト用 | `/` (ルート) |
+| `npm run build:docs` | `../docs/` | GitHub Pages用 | `/enduro-portal` |
 
-```bash
-cd portal
-PUBLIC_URL=/enduro-portal npm start
+#### 📁 フォルダ構成
+
 ```
-
-ブラウザで http://localhost:3000/enduro-portal にアクセスしてください。
+race-entry-system/
+├── dev/          # 開発用ビルド（gitignore対象）
+├── docs/         # GitHub Pages用ビルド
+└── portal/       # ソースコード
+```
 
 ## 開発ガイド
 

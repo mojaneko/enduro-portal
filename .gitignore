@@ -18,5 +18,8 @@ Thumbs.db
 *.tmp
 *.temp
 
+# Development build folder (for local Python server testing)
+dev/
+
 # Note: docs/ folder is intentionally tracked for GitHub Pages deployment
 # It contains the built version of the portal site

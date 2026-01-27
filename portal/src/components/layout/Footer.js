@@ -36,21 +36,38 @@ const Footer = () => {
           alignItems="center"
           spacing={2}
         >
-          <Link
-            component={RouterLink}
-            to="privacy-policy"
-            sx={{
-              color: 'text.secondary',
-              textDecoration: 'none',
-              fontSize: '0.875rem',
-              transition: 'color 0.2s ease',
-              '&:hover': {
-                color: 'primary.main',
-              },
-            }}
-          >
-            プライバシーポリシー
-          </Link>
+          <Box sx={{ display: 'flex', gap: 3, flexWrap: 'wrap', justifyContent: 'center' }}>
+            <Link
+              component={RouterLink}
+              to="privacy-policy"
+              sx={{
+                color: 'text.secondary',
+                textDecoration: 'none',
+                fontSize: '0.875rem',
+                transition: 'color 0.2s ease',
+                '&:hover': {
+                  color: 'primary.main',
+                },
+              }}
+            >
+              プライバシーポリシー
+            </Link>
+            <Link
+              component={RouterLink}
+              to="about-gucci-club"
+              sx={{
+                color: 'text.secondary',
+                textDecoration: 'none',
+                fontSize: '0.875rem',
+                transition: 'color 0.2s ease',
+                '&:hover': {
+                  color: 'primary.main',
+                },
+              }}
+            >
+              GUCCI Clubについて
+            </Link>
+          </Box>
           <Typography variant="body2" color="text.secondary">
             © {new Date().getFullYear()}{' '}
             <Link
@@ -68,7 +85,7 @@ const Footer = () => {
             >
               エンデューロ ポータル
             </Link>
-            . All rights reserved.
+            . Operated by GUCCI Club. All rights reserved.
           </Typography>
         </Stack>
       </Container>

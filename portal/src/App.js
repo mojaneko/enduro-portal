@@ -5,6 +5,7 @@ import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import RaceSelectionPage from './pages/RaceSelectionPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import AboutGucciClubPage from './pages/AboutGucciClubPage';
 
 function App() {
   return (
@@ -42,6 +43,16 @@ function App() {
             <>
               <Header />
               <PrivacyPolicyPage />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/about-gucci-club"
+          element={
+            <>
+              <Header />
+              <AboutGucciClubPage />
               <Footer />
             </>
           }

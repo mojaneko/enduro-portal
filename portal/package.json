@@ -16,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build:dev": "GENERATE_SOURCEMAP=false react-scripts build && npm run copy:dev",
+    "copy:dev": "rm -rf ../dev && cp -r build ../dev",
     "build:docs": "GENERATE_SOURCEMAP=false PUBLIC_URL=/enduro-portal react-scripts build && npm run copy:docs",
     "copy:docs": "rm -rf ../docs && cp -r build ../docs",
     "test": "react-scripts test",

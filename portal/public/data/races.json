@@ -12,8 +12,8 @@
       "official": ["IB", "NA", "NB"],
       "approved": ["IA", "B", "C", "CW"]
     },
-    "entryStartDate": "",
-    "entryEndDate": "",
+    "entryStartDate": "2026-02-01",
+    "entryEndDate": "2026-03-24",
     "entryUrl": "https://jecpromotion.com/"
   },
   {
@@ -232,6 +232,7 @@
     "endDate": "2026-09-06",
     "venue": "遠野特設コース",
     "location": "岩手県",
+    "address": "岩手県遠野市",
     "classes": {
       "official": ["IB", "NA", "NB"],
       "approved": ["IA", "W", "J", "B", "C", "CW"]
@@ -300,7 +301,7 @@
     "endDate": "2026-09-21",
     "venue": "日高町",
     "location": "北海道",
-    "address": "北海道沙流郡日高町富岡444-1",
+    "address": "沙流川温泉 ひだか高原荘",
     "classes": {
       "official": ["IA", "IB", "NA", "NB", "W"],
       "approved": ["A", "B", "C", "CW", "MINI"]
@@ -317,7 +318,7 @@
     "startDate": "2026-10-10",
     "endDate": "2026-10-11",
     "venue": "O LAND PARK SHISHIHARA",
-    "location": "三重県",
+    "location": "静岡県",
     "classes": {
       "official": ["IB", "NA", "NB"],
       "approved": ["IA"]
@@ -376,5 +377,73 @@
     "entryStartDate": "",
     "entryEndDate": "",
     "entryUrl": "https://jecpromotion.com/"
+  },
+  {
+    "raceId": "orlando-rd1-2026",
+    "round": 1,
+    "series": ["オーランド"],
+    "name": "O LAND PARK SHISHIHARA（Rd①）",
+    "startDate": "2026-02-22",
+    "endDate": "2026-02-22",
+    "venue": "O LAND PARK SHISHIHARA",
+    "location": "静岡県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "その他"]
+    },
+    "entryStartDate": "2026-01-23",
+    "entryEndDate": "2026-02-12",
+    "entryUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfUQt1HxT0OF9vq6kRF00WEFzAMzPDuJFW6gVIBjcqENqzNSA/viewform"
+  },
+  {
+    "raceId": "orlando-rd2-2026",
+    "round": 2,
+    "series": ["オーランド"],
+    "name": "O LAND PARK SHISHIHARA（Rd②）",
+    "startDate": "2026-03-22",
+    "endDate": "2026-03-22",
+    "venue": "O LAND PARK SHISHIHARA",
+    "location": "静岡県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "その他"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": ""
+  },
+  {
+    "raceId": "orlando-rd3-2026",
+    "round": 3,
+    "series": ["オーランド"],
+    "name": "O LAND PARK SHISHIHARA（Rd③）",
+    "startDate": "2026-05-24",
+    "endDate": "2026-05-24",
+    "venue": "O LAND PARK SHISHIHARA",
+    "location": "静岡県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "その他"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": ""
+  },
+  {
+    "raceId": "orlando-rd4-2026",
+    "round": 4,
+    "series": ["オーランド"],
+    "name": "O LAND PARK SHISHIHARA（Rd④）",
+    "startDate": "2026-07-19",
+    "endDate": "2026-07-19",
+    "venue": "O LAND PARK SHISHIHARA",
+    "location": "静岡県",
+    "classes": {
+      "official": ["IB", "NA", "NB"],
+      "approved": ["IA", "その他"]
+    },
+    "entryStartDate": "",
+    "entryEndDate": "",
+    "entryUrl": ""
   }
 ]

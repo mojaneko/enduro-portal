@@ -15,6 +15,11 @@ export const SERIES_COLORS = {
     light: '#ef5350',
     dark: '#c62828',
   },
+  'オーランド': {
+    main: '#d3a42f', // ゴールド
+    light: '#e6c766',
+    dark: '#b8941a',
+  },
   '西日本': {
     main: '#ed6c02', // オレンジ
     light: '#ff9800',
@@ -53,6 +58,7 @@ export const getSeriesMuiColor = (series) => {
     '全日本': 'primary',
     '東日本': 'success',
     '中日本': 'error',
+    'オーランド': 'warning',
     '西日本': 'warning',
     '北海道': 'info',
     'JNCC': 'secondary',
