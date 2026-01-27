@@ -20,9 +20,11 @@ import EventIcon from '@mui/icons-material/Event';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import DownloadIcon from '@mui/icons-material/Download';
 import { getRaces, formatRaceDate, getRaceStatus, formatSeriesWithRound, raceIncludesSeries, getRaceClasses } from '../data/races';
 import { getSeriesColor } from '../utils/seriesColors';
 import { getEntryUrl, handleDirectLink } from '../utils/siteConfig';
+import { downloadICalFile } from '../utils/icalGenerator';
 
 const ITEMS_PER_PAGE = 7;
 
@@ -129,6 +131,15 @@ const RaceSelectionPage = () => {
     window.location.href = entryUrl;
   };
 
+  const handleDownloadICal = () => {
+    const filterInfo = selectedSeries === 'すべて' ? '' : selectedSeries;
+    const filename = selectedSeries === 'すべて' 
+      ? 'enduro-races' 
+      : `enduro-races-${selectedSeries.replace(/[^a-zA-Z0-9]/g, '')}`;
+    
+    downloadICalFile(filteredRaces, filename, filterInfo);
+  };
+
   return (
     <Container maxWidth="lg" sx={{ py: 4 }}>
       <Box sx={{ mb: 4 }}>
@@ -146,20 +157,38 @@ const RaceSelectionPage = () => {
           <Typography variant="subtitle2" color="text.secondary" sx={{ fontWeight: 600 }}>
             シリーズで絞り込み
           </Typography>
-          <FormControlLabel
-            control={
-              <Checkbox
-                checked={showPastRaces}
-                onChange={(e) => setShowPastRaces(e.target.checked)}
+          <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+            {filteredRaces.length > 0 && (
+              <Button
+                variant="outlined"
                 size="small"
-              />
-            }
-            label={
-              <Typography variant="body2" color="text.secondary">
-                終了した大会を表示
-              </Typography>
-            }
-          />
+                startIcon={<DownloadIcon />}
+                onClick={handleDownloadICal}
+                sx={{
+                  minWidth: 'auto',
+                  px: 2,
+                  py: 0.5,
+                  fontSize: '0.875rem',
+                }}
+              >
+                カレンダー ({filteredRaces.length}件)
+              </Button>
+            )}
+            <FormControlLabel
+              control={
+                <Checkbox
+                  checked={showPastRaces}
+                  onChange={(e) => setShowPastRaces(e.target.checked)}
+                  size="small"
+                />
+              }
+              label={
+                <Typography variant="body2" color="text.secondary">
+                  終了した大会を表示
+                </Typography>
+              }
+            />
+          </Box>
         </Box>
         <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap>
           {seriesList.map((series) => {
