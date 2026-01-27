@@ -76,7 +76,7 @@
     "endDate": "2026-04-26",
     "venue": "成田MXパーク",
     "location": "千葉県",
-    "address": "千葉県成田市津富浦119-1",
+    "address": "成田MXパーク",
     "classes": {
       "official": ["IB", "NA", "NB"],
       "approved": ["IA", "W", "J", "B", "C", "CW"]
@@ -137,24 +137,6 @@
     "entryUrl": "https://berexike.wixsite.com/berex/others"
   },
   {
-    "raceId": "area-katsunuma-2026",
-    "round": 2,
-    "series": ["東日本"],
-    "name": "クロスパーク勝沼エンデューロ大会",
-    "startDate": "2026-06-14",
-    "endDate": "2026-06-14",
-    "venue": "クロスパーク勝沼",
-    "location": "山梨県",
-    "address": "〒404-0000 山梨県甲州市勝沼町山林404",
-    "classes": {
-      "official": ["IA", "IB", "NA", "NB", "WC"],
-      "approved": ["B", "C", "CW"]
-    },
-    "entryStartDate": "",
-    "entryEndDate": "",
-    "entryUrl": "https://jecpromotion.com/"
-  },
-  {
     "raceId": "higashi-rd2-2026",
     "round": 2,
     "series": ["東日本"],
@@ -163,7 +145,7 @@
     "endDate": "2026-08-02",
     "venue": "クロスパーク勝沼",
     "location": "山梨県",
-    "address": "山梨県甲州市勝沼町山林404",
+    "address": "クロスパーク勝沼",
     "classes": {
       "official": ["IB", "NA", "NB"],
       "approved": ["IA", "B", "CW", "Jr"]

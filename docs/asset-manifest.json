@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/enduro-portal/static/css/main.4efb37a3.css",
-    "main.js": "/enduro-portal/static/js/main.7d629be3.js",
+    "main.js": "/enduro-portal/static/js/main.71c74b24.js",
     "index.html": "/enduro-portal/index.html"
   },
   "entrypoints": [
     "static/css/main.4efb37a3.css",
-    "static/js/main.7d629be3.js"
+    "static/js/main.71c74b24.js"
   ]
 }

@@ -268,20 +268,16 @@ const RaceSelectionPage = () => {
                         <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
                           <LocationOnIcon fontSize="small" color="action" />
                           <Typography variant="body2" color="text.secondary">
-                            {race.address && race.address.trim() ? (
-                              <Link
-                                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(race.address)}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                underline="hover"
-                                color="inherit"
-                                sx={{ cursor: 'pointer' }}
-                              >
-                                {race.venue}
-                              </Link>
-                            ) : (
-                              race.venue
-                            )}（{race.location}）
+                            <Link
+                              href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(race.address && race.address.trim() ? race.address : race.venue)}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              underline="hover"
+                              color="inherit"
+                              sx={{ cursor: 'pointer' }}
+                            >
+                              {race.venue}
+                            </Link>（{race.location}）
                           </Typography>
                         </Box>
                       </Box>
