@@ -29,11 +29,12 @@ const FimTyresPage = () => {
   useEffect(() => {
     const loadTyresData = async () => {
       try {
-        const response = await fetch('/data/tyres.json');
+        const response = await fetch(`${process.env.PUBLIC_URL}/data/tyres.json`);
         const data = await response.json();
         setTyresData(data);
       } catch (error) {
         console.error('タイヤデータの読み込みに失敗しました:', error);
+        setTyresData({});
       } finally {
         setLoading(false);
       }
@@ -260,7 +261,7 @@ const FimTyresPage = () => {
           ))}
         </Grid>
 
-        {filteredTyres.length === 0 && (
+        {filteredTyres.length === 0 && !loading && (
           <Box sx={{ textAlign: 'center', py: 8 }}>
             <Typography variant="h6" color="text.secondary">
               選択されたメーカーのタイヤが見つかりません
