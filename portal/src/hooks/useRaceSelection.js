@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { getRaces, raceIncludesSeries } from '../data/races';
 import { getEntryUrl, handleDirectLink } from '../utils/siteConfig';
-import { downloadICalFile } from '../utils/icalGenerator';
+import { downloadICalFile, generateGoogleCalendarUrl } from '../utils/icalGenerator';
 
 const ITEMS_PER_PAGE = 7;
 

@@ -1,0 +1,252 @@
+{
+  "BRIDGESTONE": [
+    {
+      "model": "BATTLECROSS E50",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["120/90-18 M/C E50R 65P T/L", "140/80-18 M/C E50R 70P T/L"]
+    },
+    {
+      "model": "BATTLECROSS E50 EXTREME",
+      "certification": "不明（※注１）",
+      "notes": "NHS（公道走行不可）",
+      "sizes": ["140/80-18 70M NHS（公道走行不可）"]
+    },
+    {
+      "model": "ED668",
+      "certification": "不明（※注１）",
+      "sizes": ["120/90-18M/C 65R", "140/80-18M/C 70R"]
+    },
+    {
+      "model": "ED04",
+      "certification": "不明（※注１）",
+      "sizes": ["4.10-18 59P", "120/90-18M/C 65P"]
+    }
+  ],
+  "DUNLOP": [
+    {
+      "model": "GEOMAX ENDURO EN91",
+      "certification": "EマークorDOTの刻印あり",
+      "sizes": ["120/90-18 MC 65R", "140/80-18 MC 70R"]
+    },
+    {
+      "model": "D909",
+      "certification": "EマークorDOTの刻印あり",
+      "notes": "※旧商品",
+      "sizes": ["120/90-18 MC 65R", "140/80-18 MC 70R"]
+    },
+    {
+      "model": "ENDURO D908RR",
+      "certification": "EマークorDOTの刻印あり",
+      "sizes": ["140/80-18 MC 70R", "150/70-B18 MC 70S"]
+    },
+    {
+      "model": "GEOMAX ENDURO EN91EX",
+      "certification": "不明（※注１）",
+      "notes": "NHS（公道走行不可）",
+      "sizes": ["140/80-18 MC 70M NHS（公道走行不可）"]
+    },
+    {
+      "model": "TRIAL D803GP",
+      "certification": "EマークorDOTの刻印あり",
+      "sizes": ["120/100R-18 M/C 68M"]
+    },
+    {
+      "model": "GEOMAX TRIAL TL01",
+      "certification": "EマークorDOTの刻印あり",
+      "sizes": ["120/100R-18 M/C 68M"]
+    }
+  ],
+  "iRC": [
+    {
+      "model": "GX20",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["120/90-18 M/C 65R（Eマーク取得予定）", "140/80-18 M/C 70R"]
+    },
+    {
+      "model": "GX20SOFT",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["140/80-18 M/C 70M（Eマーク取得予定）"]
+    },
+    {
+      "model": "BR-99",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["120/90-18 M/C 65R", "140/80-18 M/C 70R"]
+    },
+    {
+      "model": "TR-011 TOURIST",
+      "certification": "DOT刻印あり",
+      "sizes": ["2.75-21 45P", "4.00-18 64P"]
+    }
+  ],
+  "MAXXIS": [
+    {
+      "model": "M7324R Maxxenduro",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["140/90-18 70R TT"]
+    },
+    {
+      "model": "M7314 Maxxcross EN",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["140/80-18 70R TT"]
+    },
+    {
+      "model": "M7314K Maxxcross EN",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["140/80-18"]
+    }
+  ],
+  "METZELER": [
+    {
+      "model": "MCE６DAYS EXTREME",
+      "certification": "ECE75刻印あり・DOT刻印なしが混在",
+      "notes": "DOT規格：SOFT・SUPERSOFT無し（米国/カナダ公道走行不可）",
+      "variants": {
+        "STANDARD": {
+          "certifications": ["ECE75", "DOT"],
+          "sizes": [
+            "120/90 - 18 M/C 65M M+S",
+            "120/90 - 18 M/C 65R M+S",
+            "140/80 - 18 70M NHS",
+            "140/80 - 18 M/C 70M M+S"
+          ]
+        },
+        "MEDIUM": {
+          "certifications": ["ECE75", "DOT"],
+          "sizes": ["140/80 - 18 M/C 70M M+S"]
+        },
+        "SOFT": {
+          "certifications": ["ECE75"],
+          "sizes": ["140/80 - 18 M/C 70M M+S"]
+        },
+        "SUPER SOFT": {
+          "certifications": ["ECE75"],
+          "sizes": ["140/80 - 18 M/C 70M M+S"]
+        }
+      }
+    }
+  ],
+  "MICHELIN": [
+    {
+      "model": "ENDURO MEDIUM",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["120/90-18 65R TT", "140/80-18 70R TT"]
+    },
+    {
+      "model": "ENDURO MEDIUM2",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["120/90-18 M/C 65R TT", "140/80/18 M/C 70R TT"]
+    },
+    {
+      "model": "ENDURO XTREM",
+      "certification": "DOT刻印あり",
+      "notes": "NHS（公道走行不可）",
+      "sizes": ["140/80-18 M/C 70M TT NHS（公道走行不可）"]
+    }
+  ],
+  "SHINKO": [
+    {
+      "model": "216SX",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["140/80-18 70R TL"]
+    },
+    {
+      "model": "216MX",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["120/90-18 65R TL", "140/80-18 TL"]
+    },
+    {
+      "model": "216HX",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["140/80-18 70R TL"]
+    },
+    {
+      "model": "216EX-SS",
+      "certification": "E・DOT刻印あり",
+      "sizes": ["140/80-18 70R TL"]
+    }
+  ],
+  "PIRELLI": [
+    {
+      "model": "SCORPION PRO",
+      "certification": "不明（※注１）",
+      "notes": "※メーカー販売終了",
+      "sizes": ["120/90-18 M/C 65M", "140/80-18 M/C 70M"]
+    }
+  ],
+  "Vee Rubber": [
+    {
+      "model": "VRM-211R",
+      "certification": "E・DOT刻印あり",
+      "compound": "ノーマル",
+      "sizes": ["120/90-18 65R"]
+    },
+    {
+      "model": "VRM-211B",
+      "certification": "E・DOT刻印あり",
+      "compound": "ノーマル",
+      "sizes": ["140/80-18 70R"]
+    },
+    {
+      "model": "VRM-175",
+      "certification": "E・DOT刻印あり",
+      "compound": "ノーマル",
+      "sizes": ["120/80-19 65R", "120/90-18 65R", "140/80-18 70R"]
+    },
+    {
+      "model": "VRM-175 Tackee FIM",
+      "certification": "E・DOT刻印あり",
+      "compound": "Tackee",
+      "sizes": ["120/90-18 65M"]
+    }
+  ],
+  "X-GRIP": [
+    {
+      "model": "XG-2103 JACK the GRIPPER",
+      "certification": "E刻印あり",
+      "compound": "ソフト",
+      "notes": "販売元：ラフ＆ロード",
+      "sizes": ["120/90-18 FIM NHS（公道走行不可）"]
+    },
+    {
+      "model": "XG-1594 SuperENDURO",
+      "certification": "E刻印あり",
+      "compound": "ソフト",
+      "notes": "販売元：ラフ＆ロード",
+      "sizes": ["140/80-18 FIM NHS（公道走行不可）"]
+    }
+  ],
+  "MITAS": [
+    {
+      "model": "TERRA FORCE-EF（SUPER）",
+      "certification": "DOT刻印あり",
+      "sizes": ["110/80-18 58M TT", "120/90-18 65R TT", "140/80-18 70R TT"]
+    },
+    {
+      "model": "TERRA FORCE-EF（SUPER LIGHT）",
+      "certification": "DOT刻印あり",
+      "sizes": ["120/90-18 65R TT", "140/80-18 70R TT"]
+    },
+    {
+      "model": "TERRA FORCE-EF（SUPER SOFT）",
+      "certification": "DOT刻印あり",
+      "sizes": ["120/90-18 65R TT", "140/80-18 70M TT"]
+    },
+    {
+      "model": "TERRA FORCE-EF PRO（SUPER SOFT）",
+      "certification": "DOT刻印あり",
+      "sizes": ["140/80-18 70M TT"]
+    }
+  ],
+  "CST": [
+    {
+      "model": "BITE ENDURO CM742",
+      "certification": "E刻印あり",
+      "sizes": ["140/80-18 70M TT"]
+    },
+    {
+      "model": "ENDURO1 CM724",
+      "certification": "E刻印あり",
+      "sizes": ["140/80-18 70M TT"]
+    }
+  ]
+}

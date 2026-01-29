@@ -14,6 +14,7 @@ import {
 import { Link as RouterLink } from 'react-router-dom';
 import InfoIcon from '@mui/icons-material/Info';
 import BugReportIcon from '@mui/icons-material/BugReport';
+import TireRepairIcon from '@mui/icons-material/TireRepair';
 import { getUpcomingAvailableRaces } from '../data/races';
 import { getEntryUrl, handleDirectLink } from '../utils/siteConfig';
 import HomeRaceCard from '../components/HomeRaceCard';
@@ -161,7 +162,7 @@ const HomePage = () => {
         </Typography>
 
         <Grid container spacing={{ xs: 2, md: 4 }} justifyContent="center" sx={{ mb: { xs: 4, md: 6 } }}>
-          <Grid item xs={12} md={5}>
+          <Grid item xs={12} md={4}>
             <Card
               sx={{
                 height: '100%',
@@ -186,7 +187,41 @@ const HomePage = () => {
               </CardContent>
             </Card>
           </Grid>
-          <Grid item xs={12} md={5}>
+          <Grid item xs={12} md={4}>
+            <Card
+              sx={{
+                height: '100%',
+                transition: 'transform 0.2s',
+                '&:hover': { transform: isMobile ? 'none' : 'translateY(-4px)' },
+                mx: { xs: 0, sm: 'auto' },
+              }}
+            >
+              <CardContent
+                sx={{
+                  textAlign: 'center',
+                  p: { xs: 2, md: 3 },
+                }}
+              >
+                <TireRepairIcon color="primary" sx={{ fontSize: { xs: 48, md: 60 }, mb: { xs: 1, md: 2 } }} />
+                <Typography variant={isMobile ? 'h6' : 'h5'} component="h3" gutterBottom sx={{ fontWeight: 600 }}>
+                  FIMタイヤ確認
+                </Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ mb: 2 }}>
+                  全日本エンデューロシリーズで使用可能なリヤタイヤを確認できます。
+                </Typography>
+                <Button
+                  component={RouterLink}
+                  to="/fim-tyres"
+                  variant="outlined"
+                  color="primary"
+                  size="small"
+                >
+                  タイヤを確認する
+                </Button>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={12} md={4}>
             <Card
               sx={{
                 height: '100%',

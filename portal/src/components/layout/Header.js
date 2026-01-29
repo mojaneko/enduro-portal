@@ -40,6 +40,7 @@ const Header = () => {
   const menuItems = [
     { label: 'ホーム', path: '/' },
     { label: 'レース一覧', path: '/races' },
+    { label: 'FIMタイヤ確認', path: '/fim-tyres' },
     { label: 'GUCCI Clubについて', path: '/about-gucci-club' },
     { label: 'プライバシーポリシー', path: '/privacy-policy' },
   ];

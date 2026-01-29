@@ -32,6 +32,7 @@ const RaceSelectionPage = () => {
     handleShowPastRacesChange,
     handleRaceSelect,
     handleDownloadICal,
+    handleGoogleCalendar,
     scrollToTop,
   } = useRaceSelection();
 

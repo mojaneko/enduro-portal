@@ -4,6 +4,7 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import RaceSelectionPage from './pages/RaceSelectionPage';
+import FimTyresPage from './pages/FimTyresPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import AboutGucciClubPage from './pages/AboutGucciClubPage';
 
@@ -33,6 +34,16 @@ function App() {
             <>
               <Header />
               <RaceSelectionPage />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/fim-tyres"
+          element={
+            <>
+              <Header />
+              <FimTyresPage />
               <Footer />
             </>
           }
