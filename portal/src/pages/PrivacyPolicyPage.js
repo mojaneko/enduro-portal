@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
   Container,
   Typography,
@@ -8,8 +9,10 @@ import {
 } from '@mui/material';
 
 const PrivacyPolicyPage = () => {
+  const navigate = useNavigate();
+
   const handleBack = () => {
-    window.location.href = '/';
+    navigate('/');
   };
 
   return (

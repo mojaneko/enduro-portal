@@ -39,7 +39,7 @@ const Footer = () => {
           <Box sx={{ display: 'flex', gap: 3, flexWrap: 'wrap', justifyContent: 'center' }}>
             <Link
               component={RouterLink}
-              to="privacy-policy"
+              to="/privacy-policy"
               sx={{
                 color: 'text.secondary',
                 textDecoration: 'none',
@@ -54,7 +54,7 @@ const Footer = () => {
             </Link>
             <Link
               component={RouterLink}
-              to="about-gucci-club"
+              to="/about-gucci-club"
               sx={{
                 color: 'text.secondary',
                 textDecoration: 'none',
@@ -72,7 +72,7 @@ const Footer = () => {
             © {new Date().getFullYear()}{' '}
             <Link
               component={RouterLink}
-              to=""
+              to="/"
               sx={{
                 color: 'text.primary',
                 textDecoration: 'none',
