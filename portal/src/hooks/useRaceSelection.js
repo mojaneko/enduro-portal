@@ -8,7 +8,7 @@ const ITEMS_PER_PAGE = 7;
 export const useRaceSelection = () => {
   const [races, setRaces] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [selectedSeries, setSelectedSeries] = useState('すべて');
+  const [selectedSeries, setSelectedSeries] = useState(['すべて']);
   const [displayCount, setDisplayCount] = useState(ITEMS_PER_PAGE);
   const [showPastRaces, setShowPastRaces] = useState(false);
   const [raceEntryUrls, setRaceEntryUrls] = useState({});
@@ -106,8 +106,10 @@ export const useRaceSelection = () => {
     }
     
     // シリーズで絞り込み
-    if (selectedSeries !== 'すべて') {
-      filtered = filtered.filter(race => raceIncludesSeries(race, selectedSeries));
+    if (!selectedSeries.includes('すべて') && selectedSeries.length > 0) {
+      filtered = filtered.filter(race => 
+        selectedSeries.some(series => raceIncludesSeries(race, series))
+      );
     }
     
     // startDateでソート（昇順）
@@ -129,8 +131,23 @@ export const useRaceSelection = () => {
   };
 
   const handleSeriesChange = (series) => {
-    setSelectedSeries(series);
-    setDisplayCount(ITEMS_PER_PAGE); // リセット
+    if (series === 'すべて') {
+      setSelectedSeries(['すべて']); // 「すべて」選択時は他をクリア
+      setDisplayCount(ITEMS_PER_PAGE);
+    } else {
+      setSelectedSeries(prev => {
+        const withoutAll = prev.filter(s => s !== 'すべて'); // 「すべて」を除去
+        if (withoutAll.includes(series)) {
+          // 既に選択済み → 削除
+          const newSelection = withoutAll.filter(s => s !== series);
+          return newSelection.length === 0 ? ['すべて'] : newSelection; // 空なら「すべて」
+        } else {
+          // 未選択 → 追加
+          return [...withoutAll, series];
+        }
+      });
+      setDisplayCount(ITEMS_PER_PAGE); // リセット
+    }
   };
 
   const handleShowPastRacesChange = (checked) => {
@@ -157,10 +174,10 @@ export const useRaceSelection = () => {
   };
 
   const handleDownloadICal = () => {
-    const filterInfo = selectedSeries === 'すべて' ? '' : selectedSeries;
-    const filename = selectedSeries === 'すべて' 
+    const filterInfo = selectedSeries.includes('すべて') ? '' : selectedSeries.join('・');
+    const filename = selectedSeries.includes('すべて') 
       ? 'enduro-races' 
-      : `enduro-races-${selectedSeries.replace(/[^a-zA-Z0-9]/g, '')}`;
+      : `enduro-races-${selectedSeries.join('-').replace(/[^a-zA-Z0-9-]/g, '')}`;
     
     downloadICalFile(filteredRaces, filename, filterInfo);
   };

@@ -45,7 +45,7 @@ const RaceFilter = ({
       <Stack {...styles.chipContainer}>
         {seriesList.map((series) => {
           const seriesColor = series === 'すべて' ? null : getSeriesColor(series);
-          const isSelected = selectedSeries === series;
+          const isSelected = selectedSeries.includes(series);
           
           return (
             <Chip
