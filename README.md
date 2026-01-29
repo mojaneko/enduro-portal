@@ -6,7 +6,7 @@
 
 ## 🌐 デモサイト
 
-GitHub Pagesで公開中: **[https://your-username.github.io/enduro-portal/](https://your-username.github.io/enduro-portal/)**
+GitHub Pagesで公開中: **[https://mojaneko.github.io/enduro-portal/](https://mojaneko.github.io/enduro-portal/)**
 
 ## プロジェクト構成
 
