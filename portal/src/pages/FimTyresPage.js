@@ -152,9 +152,9 @@ const FimTyresPage = () => {
         </Box>
 
         {/* タイヤリスト */}
-        <Grid container spacing={3}>
+        <Grid container spacing={2}>
           {filteredTyres.map((tyre, index) => (
-            <Grid item xs={12} md={6} lg={4} key={`${tyre.manufacturer}-${tyre.model}-${index}`}>
+            <Grid item xs={12} sm={6} md={4} lg={3} key={`${tyre.manufacturer}-${tyre.model}-${index}`}>
               <Card 
                 sx={{ 
                   height: '100%',
@@ -166,32 +166,32 @@ const FimTyresPage = () => {
                   transition: 'all 0.2s ease-in-out',
                 }}
               >
-                <CardContent>
+                <CardContent sx={{ p: 2 }}>
                   {/* メーカー名 */}
-                  <Typography variant="h6" component="h3" sx={{ fontWeight: 600, mb: 1, color: 'primary.main' }}>
+                  <Typography variant="h6" component="h3" sx={{ fontWeight: 600, mb: 1, color: 'primary.main', fontSize: '1.1rem' }}>
                     {tyre.manufacturer}
                   </Typography>
                   
                   {/* モデル名 */}
-                  <Typography variant="subtitle1" sx={{ fontWeight: 500, mb: 2 }}>
+                  <Typography variant="subtitle1" sx={{ fontWeight: 500, mb: 1.5, fontSize: '0.95rem' }}>
                     {tyre.model}
                   </Typography>
 
                   {/* 認証情報 */}
                   {tyre.certification && (
-                    <Box sx={{ mb: 2 }}>
+                    <Box sx={{ mb: 1.5 }}>
                       <Chip
                         label={tyre.certification}
                         color={getCertificationColor(tyre.certification)}
                         size="small"
-                        sx={{ mb: 1 }}
+                        sx={{ mb: 0.5, fontSize: '0.7rem' }}
                       />
                       {isRoadLegal(tyre) && (
                         <Chip
                           label="公道走行可"
                           color="success"
                           size="small"
-                          sx={{ ml: 1, mb: 1 }}
+                          sx={{ ml: 1, mb: 0.5, fontSize: '0.7rem' }}
                         />
                       )}
                     </Box>
@@ -199,36 +199,36 @@ const FimTyresPage = () => {
 
                   {/* コンパウンド情報 */}
                   {tyre.compound && (
-                    <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
+                    <Typography variant="body2" color="text.secondary" sx={{ mb: 1, fontSize: '0.8rem' }}>
                       <strong>コンパウンド:</strong> {tyre.compound}
                     </Typography>
                   )}
 
                   {/* サイズ */}
-                  <Typography variant="body2" sx={{ mb: 2 }}>
-                    <strong>サイズ:</strong>
+                  <Typography variant="body2" sx={{ mb: 1, fontSize: '0.8rem', fontWeight: 500 }}>
+                    サイズ:
                   </Typography>
-                  <Box sx={{ mb: 2 }}>
+                  <Box sx={{ mb: 1.5 }}>
                     {tyre.sizes?.map((size, sizeIndex) => (
                       <Chip
                         key={sizeIndex}
                         label={size}
                         variant="outlined"
                         size="small"
-                        sx={{ mr: 0.5, mb: 0.5 }}
+                        sx={{ mr: 0.5, mb: 0.5, fontSize: '0.7rem' }}
                       />
                     ))}
                   </Box>
 
                   {/* バリエーション（METZELER用） */}
                   {tyre.variants && (
-                    <Box sx={{ mb: 2 }}>
-                      <Typography variant="body2" sx={{ fontWeight: 600, mb: 1 }}>
+                    <Box sx={{ mb: 1.5 }}>
+                      <Typography variant="body2" sx={{ fontWeight: 600, mb: 1, fontSize: '0.8rem' }}>
                         バリエーション:
                       </Typography>
                       {Object.entries(tyre.variants).map(([variant, details]) => (
                         <Box key={variant} sx={{ ml: 1, mb: 1 }}>
-                          <Typography variant="caption" sx={{ fontWeight: 500 }}>
+                          <Typography variant="caption" sx={{ fontWeight: 500, fontSize: '0.75rem' }}>
                             {variant}
                           </Typography>
                           <Box sx={{ ml: 1 }}>
@@ -238,7 +238,7 @@ const FimTyresPage = () => {
                                 label={size}
                                 variant="outlined"
                                 size="small"
-                                sx={{ mr: 0.5, mb: 0.5, fontSize: '0.7rem' }}
+                                sx={{ mr: 0.5, mb: 0.5, fontSize: '0.65rem' }}
                               />
                             ))}
                           </Box>
@@ -249,11 +249,28 @@ const FimTyresPage = () => {
 
                   {/* 備考 */}
                   {tyre.notes && (
-                    <Alert severity="warning" sx={{ mt: 2 }}>
-                      <Typography variant="caption">
+                    <Alert severity="warning" sx={{ mt: 1.5, mb: 1.5, py: 0.5 }}>
+                      <Typography variant="caption" sx={{ fontSize: '0.75rem' }}>
                         {tyre.notes}
                       </Typography>
                     </Alert>
+                  )}
+
+                  {/* 購入ボタン */}
+                  {tyre.purchaseUrl && (
+                    <Box sx={{ mt: 1.5, textAlign: 'center' }}>
+                      <Button
+                        variant="outlined"
+                        color="primary"
+                        size="small"
+                        href={tyre.purchaseUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        sx={{ fontSize: '0.8rem' }}
+                      >
+                        購入はこちら
+                      </Button>
+                    </Box>
                   )}
                 </CardContent>
               </Card>

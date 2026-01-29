@@ -178,25 +178,29 @@
       "model": "VRM-211R",
       "certification": "E・DOT刻印あり",
       "compound": "ノーマル",
-      "sizes": ["120/90-18 65R"]
+      "sizes": ["120/90-18 65R"],
+      "purchaseUrl": "https://veerubber.kdenki.com/veefim.php"
     },
     {
       "model": "VRM-211B",
       "certification": "E・DOT刻印あり",
       "compound": "ノーマル",
-      "sizes": ["140/80-18 70R"]
+      "sizes": ["140/80-18 70R"],
+      "purchaseUrl": "https://veerubber.kdenki.com/veefim.php"
     },
     {
       "model": "VRM-175",
       "certification": "E・DOT刻印あり",
       "compound": "ノーマル",
-      "sizes": ["120/80-19 65R", "120/90-18 65R", "140/80-18 70R"]
+      "sizes": ["120/80-19 65R", "120/90-18 65R", "140/80-18 70R"],
+      "purchaseUrl": "https://veerubber.kdenki.com/veefim.php"
     },
     {
       "model": "VRM-175 Tackee FIM",
       "certification": "E・DOT刻印あり",
       "compound": "Tackee",
-      "sizes": ["120/90-18 65M"]
+      "sizes": ["120/90-18 65M"],
+      "purchaseUrl": "https://veerubber.kdenki.com/veefim.php"
     }
   ],
   "X-GRIP": [
